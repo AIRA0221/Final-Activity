@@ -39,12 +39,4 @@ public class Transaction {
     public LocalDate getDateBorrowed() {
         return dateBorrowed;
     }
-
-    public LocalDate getDateReturned() {
-        return dateReturned;
-    }
-
-    public void setDateReturned(LocalDate date) {
-        dateReturned = date;
-    }
 }
