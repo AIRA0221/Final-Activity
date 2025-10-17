@@ -1,5 +1,5 @@
 public class Book {
-    private String bookId;
+      private String bookId;
     private String title;
     private String author;
     private boolean available;
@@ -42,4 +42,6 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
+
+    
 }
