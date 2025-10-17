@@ -595,7 +595,7 @@ public class LibrarySystem {
                 int n = Integer.parseInt(num);
                 if (n > max) max = n;
             } catch (Exception e) {
-                System.out.println("No Transaction Found!");
+
             }
         }
         int next = max + 1;
