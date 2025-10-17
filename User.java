@@ -3,7 +3,7 @@ import java.util.List;
 
 public class User extends Person {
     private String password;
-    private String role; // "admin" or "user"
+    private String role; 
     private List<String> borrowedBooks;
 
     public User(String id, String name, String password, String role) {
